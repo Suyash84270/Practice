@@ -1,3 +1,12 @@
+python -m venv venv
+.\venv\Scripts\Activate
+venv\Scripts\activate
+
+create reuirements - 
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
 yolo detect train data=data.yaml model=yolov8s.pt epochs=20 imgsz=640
 
 Step 6
@@ -5,6 +14,32 @@ Step 6
 After training you get:
 
 runs/detect/train/weights/best.pt
+
+
+
+(
+git init
+git add .
+git commit -m "Initial commit"
+conect to repo 
+git remote add origin https://github.com/yourusername/reponame.git
+git branch -M main
+git push -u origin main
+
+
+.gitignore - ( 
+    venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pyc
+)
+
+
+error: remote origin already exists.
+git remote -v
+
+
 
 
 (( pip install langchain-core
