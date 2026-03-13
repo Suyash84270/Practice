@@ -1,0 +1,2 @@
+2026-03-13 01:16:44,178 | INFO | src.cv.detector | Initializing Construction Detector
+2026-03-13 01:16:44,180 | INFO | src.cv.detector | Loading YOLO model from models/yolo_model.pt

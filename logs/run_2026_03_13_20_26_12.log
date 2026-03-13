@@ -1,0 +1,15 @@
+2026-03-13 20:26:25,108 | INFO | __main__ | Creating RAG chatbot
+2026-03-13 20:26:25,108 | INFO | __main__ | Creating RAG chatbot
+2026-03-13 20:26:25,108 | INFO | __main__ | Creating RAG chatbot
+2026-03-13 20:26:25,108 | INFO | rag_chatbot | Building RAG pipeline
+2026-03-13 20:26:25,109 | INFO | rag_pipeline | Starting RAG pipeline
+2026-03-13 20:26:25,109 | INFO | loader | Loading PDF: C:\Users\mpant\AppData\Local\Temp\tmp1pxig2pp.pdf
+2026-03-13 20:26:26,986 | INFO | loader | Loaded 75 pages
+2026-03-13 20:26:26,986 | INFO | text_splitter | Splitting documents into chunks
+2026-03-13 20:26:26,993 | INFO | text_splitter | Generated 394 chunks
+2026-03-13 20:26:26,993 | INFO | embedder | Loading embedding model
+2026-03-13 20:26:31,533 | INFO | vector_store | Creating FAISS vector store
+2026-03-13 20:26:40,359 | INFO | vector_store | Vector store created
+2026-03-13 20:26:40,360 | INFO | rag_pipeline | RAG pipeline ready
+2026-03-13 20:26:41,100 | INFO | rag_chatbot | Loading OpenAI LLM
+2026-03-13 20:26:41,445 | INFO | rag_chatbot | Chatbot ready

@@ -1,0 +1,25 @@
+training:
+  model: "models/ppe_yolo.pt"        # base YOLO model to start training
+  epochs: 20                 # number of training epochs
+  img_size: 640              # image size for training
+  batch_size: 8              # batch size
+
+model:
+  type: "yolo"
+  path: "models/construction_detector/weights/best.pt"
+  confidence: 0.4
+  iou: 0.5
+
+paths:
+  dataset_config: "configs/dataset.yaml"
+  models_dir: "models/"
+  logs_dir: "logs/"
+
+detection:
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  max_detections: 100
+
+llm:
+  model: "gpt-4o-mini"
+  temperature: 0.3

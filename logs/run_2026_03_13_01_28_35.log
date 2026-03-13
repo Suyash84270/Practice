@@ -1,0 +1,4 @@
+2026-03-13 01:28:35,867 | INFO | src.cv.detector | Initializing Construction Detector
+2026-03-13 01:28:35,869 | INFO | src.cv.detector | Loading YOLO model from models/construction_detector/weights/best.pt
+2026-03-13 01:28:35,965 | INFO | src.cv.detector | Running detection on image: data/val/images/youtube-504_jpg.rf.23771986686856ac7d350cea84ddf611.jpg
+2026-03-13 01:28:36,065 | INFO | src.cv.detector | Detection completed: {}

@@ -1,0 +1,12 @@
+2026-03-13 14:34:29,531 | INFO | src.pipeline.inspection_pipeline | Initializing Inspection Pipeline
+2026-03-13 14:34:29,532 | INFO | src.llm.report_generator | Initializing Report Generator
+2026-03-13 14:34:29,775 | INFO | src.pipeline.inspection_pipeline | Running construction inspection pipeline
+2026-03-13 14:34:29,775 | INFO | src.cv.detector | Initializing Construction Detector
+2026-03-13 14:34:29,777 | INFO | src.cv.detector | Loading YOLO model from yolov8m.pt
+2026-03-13 14:34:29,850 | INFO | src.cv.detector | Running detection on image: test_image.jpg
+2026-03-13 14:34:30,181 | INFO | src.cv.detector | Detection completed: {'person': 5}
+2026-03-13 14:34:30,182 | INFO | src.pipeline.inspection_pipeline | Detections: {'person': 5}
+2026-03-13 14:34:30,182 | INFO | src.pipeline.inspection_pipeline | Safety analysis: {'person': 5, 'workers_without_helmet': 5}
+2026-03-13 14:34:30,260 | INFO | src.llm.report_generator | LangGraph input node received detections
+2026-03-13 14:34:30,261 | INFO | src.llm.report_generator | Prompt formatted for LLM
+2026-03-13 14:34:30,262 | INFO | src.llm.report_generator | Sending prompt to LLM

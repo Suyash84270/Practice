@@ -1,0 +1,3 @@
+2026-03-13 01:27:36,806 | INFO | src.cv.detector | Initializing Construction Detector
+2026-03-13 01:27:36,809 | INFO | src.cv.detector | Loading YOLO model from models/construction_detector/weights/best.pt
+2026-03-13 01:27:36,906 | ERROR | src.cv.detector | Detection failed

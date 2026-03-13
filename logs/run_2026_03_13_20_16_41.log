@@ -1,0 +1,15 @@
+2026-03-13 20:18:19,523 | INFO | __main__ | Creating RAG chatbot
+2026-03-13 20:18:19,523 | INFO | __main__ | Creating RAG chatbot
+2026-03-13 20:18:19,523 | INFO | __main__ | Creating RAG chatbot
+2026-03-13 20:18:19,524 | INFO | rag_chatbot | Building RAG pipeline
+2026-03-13 20:18:19,524 | INFO | rag_pipeline | Starting RAG pipeline
+2026-03-13 20:18:19,524 | INFO | loader | Loading PDF: C:\Users\mpant\AppData\Local\Temp\tmpyipizxd_.pdf
+2026-03-13 20:18:21,674 | INFO | loader | Loaded 75 pages
+2026-03-13 20:18:21,674 | INFO | text_splitter | Splitting documents into chunks
+2026-03-13 20:18:21,685 | INFO | text_splitter | Generated 394 chunks
+2026-03-13 20:18:21,685 | INFO | embedder | Loading embedding model
+2026-03-13 20:18:26,392 | INFO | vector_store | Creating FAISS vector store
+2026-03-13 20:18:35,387 | INFO | vector_store | Vector store created
+2026-03-13 20:18:35,387 | INFO | rag_pipeline | RAG pipeline ready
+2026-03-13 20:18:35,387 | INFO | rag_chatbot | Loading local HuggingFace LLM
+2026-03-13 20:18:37,104 | INFO | rag_chatbot | Chatbot ready

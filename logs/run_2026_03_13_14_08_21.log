@@ -1,0 +1,14 @@
+2026-03-13 14:08:22,824 | INFO | src.pipeline.inspection_pipeline | Initializing Inspection Pipeline
+2026-03-13 14:08:22,824 | INFO | src.llm.report_generator | Initializing Report Generator
+2026-03-13 14:08:23,064 | INFO | src.pipeline.inspection_pipeline | Running construction inspection pipeline
+2026-03-13 14:08:23,065 | INFO | src.cv.detector | Initializing Construction Detector
+2026-03-13 14:08:23,065 | INFO | src.cv.detector | Loading YOLO model from models/construction_detector/weights/best.pt
+2026-03-13 14:08:23,098 | INFO | src.cv.detector | Running detection on image: test_image.jpg
+2026-03-13 14:08:23,199 | INFO | src.cv.detector | Detection completed: {'Hardhat': 5, 'NO-Hardhat': 5, 'NO-Mask': 5, 'Safety Cone': 5}
+2026-03-13 14:08:23,200 | INFO | src.pipeline.inspection_pipeline | Detections: {'Hardhat': 5, 'NO-Hardhat': 5, 'NO-Mask': 5, 'Safety Cone': 5}
+2026-03-13 14:08:23,200 | INFO | src.pipeline.inspection_pipeline | Safety analysis: {'Hardhat': 5, 'NO-Hardhat': 5, 'NO-Mask': 5, 'Safety Cone': 5, 'workers_without_helmet': 0}
+2026-03-13 14:08:23,273 | INFO | src.llm.report_generator | LangGraph input node received detections
+2026-03-13 14:08:23,274 | INFO | src.llm.report_generator | Prompt formatted for LLM
+2026-03-13 14:08:23,275 | INFO | src.llm.report_generator | Sending prompt to LLM
+2026-03-13 14:08:33,917 | INFO | src.llm.report_generator | LLM report generated
+2026-03-13 14:08:33,918 | INFO | src.llm.report_generator | LangGraph workflow completed

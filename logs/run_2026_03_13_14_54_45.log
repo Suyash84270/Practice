@@ -1,0 +1,4 @@
+2026-03-13 14:54:47,447 | INFO | src.pipeline.inspection_pipeline | Initializing Inspection Pipeline
+2026-03-13 14:54:47,447 | INFO | src.llm.report_generator | Initializing Report Generator
+2026-03-13 14:54:47,932 | INFO | src.pipeline.inspection_pipeline | Running construction inspection pipeline
+2026-03-13 14:54:47,935 | INFO | src.cv.detector | Loading model: models/ppe_yolo.pt

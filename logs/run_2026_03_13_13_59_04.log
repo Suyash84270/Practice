@@ -1,0 +1,10 @@
+2026-03-13 13:59:06,054 | INFO | src.cv.detector | Initializing Construction Detector
+2026-03-13 13:59:06,056 | INFO | src.cv.detector | Loading YOLO model from models/construction_detector/weights/best.pt
+2026-03-13 13:59:06,090 | INFO | src.cv.detector | Running detection on image: test_image.jpg
+2026-03-13 13:59:06,201 | INFO | src.cv.detector | Detection completed: {'Hardhat': 5, 'NO-Hardhat': 5, 'NO-Mask': 4, 'Safety Cone': 5}
+2026-03-13 13:59:06,202 | INFO | src.llm.report_generator | Initializing Report Generator
+2026-03-13 13:59:06,544 | INFO | src.llm.report_generator | LangGraph input node received detections
+2026-03-13 13:59:06,546 | INFO | src.llm.report_generator | Prompt formatted for LLM
+2026-03-13 13:59:06,546 | INFO | src.llm.report_generator | Sending prompt to LLM
+2026-03-13 13:59:17,914 | INFO | src.llm.report_generator | LLM report generated
+2026-03-13 13:59:17,914 | INFO | src.llm.report_generator | LangGraph workflow completed

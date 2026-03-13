@@ -1,0 +1,4 @@
+2026-03-13 01:32:40,922 | INFO | __main__ | Initializing YOLO Trainer
+2026-03-13 01:32:40,924 | INFO | __main__ | Loading YOLO model: yolov8n.pt
+2026-03-13 01:32:41,034 | INFO | __main__ | Starting YOLOv8 training
+2026-03-13 01:33:29,846 | INFO | __main__ | Training completed successfully

@@ -1,0 +1,13 @@
+2026-03-13 16:57:18,425 | INFO | __main__ | Starting Construction Site Inspector
+2026-03-13 16:57:18,425 | INFO | src.pipeline.inspection_pipeline | Initializing Inspection Pipeline
+2026-03-13 16:57:18,425 | INFO | src.llm.report_generator | Initializing Report Generator
+2026-03-13 16:57:18,672 | INFO | src.pipeline.inspection_pipeline | Running construction inspection pipeline
+2026-03-13 16:57:18,673 | INFO | src.cv.detector | Loading model: models/construction_detector/weights/best.pt
+2026-03-13 16:57:18,803 | INFO | src.cv.detector | Detection completed: {'Hardhat': 5, 'NO-Hardhat': 5, 'NO-Mask': 5, 'Safety Cone': 5}
+2026-03-13 16:57:18,805 | INFO | src.pipeline.inspection_pipeline | Detections: {'Hardhat': 5, 'NO-Hardhat': 5, 'NO-Mask': 5, 'Safety Cone': 5}
+2026-03-13 16:57:18,805 | INFO | src.pipeline.inspection_pipeline | Safety analysis: {'Hardhat': 5, 'NO-Hardhat': 5, 'NO-Mask': 5, 'Safety Cone': 5, 'workers_without_helmet': 0}
+2026-03-13 16:57:18,876 | INFO | src.llm.report_generator | LangGraph input node received detections
+2026-03-13 16:57:18,877 | INFO | src.llm.report_generator | Prompt formatted for LLM
+2026-03-13 16:57:18,878 | INFO | src.llm.report_generator | Sending prompt to LLM
+2026-03-13 16:57:36,248 | INFO | src.llm.report_generator | LLM report generated
+2026-03-13 16:57:36,248 | INFO | src.llm.report_generator | LangGraph workflow completed

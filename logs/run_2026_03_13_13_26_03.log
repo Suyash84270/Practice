@@ -1,0 +1,4 @@
+2026-03-13 13:26:03,834 | INFO | src.cv.detector | Initializing Construction Detector
+2026-03-13 13:26:03,837 | INFO | src.cv.detector | Loading YOLO model from models/construction_detector/weights/best.pt
+2026-03-13 13:26:03,933 | INFO | src.cv.detector | Running detection on image: test_image.jpg
+2026-03-13 13:26:04,047 | INFO | src.cv.detector | Detection completed: {'Hardhat': 1, 'Safety Cone': 1, 'Mask': 1}
